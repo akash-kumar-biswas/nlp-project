@@ -315,6 +315,6 @@ uvicorn main:app --reload --app-dir backend
 
 Start the backend first and confirm that `http://127.0.0.1:8000/` opens successfully.
 
-### Port already in use
+###  Port already in use
 
 Stop the old process or run FastAPI on another port. If the port changes, update `API_URL` in `frontend/User.py` and `frontend/pages/Admin.py`.
